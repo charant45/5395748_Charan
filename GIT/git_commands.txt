@@ -1,0 +1,70 @@
+# git-commands.txt
+# ----------------
+# This file contains essential Git commands with short explanations.
+# Ideal for beginners practicing Git and version control workflows.
+
+# 1. Initialize a new Git repository in your project folder
+git init
+# This creates a hidden .git folder and prepares the directory for version control.
+
+# 2. Check the current status of your working directory and staging area
+git status
+# It shows which files are untracked, modified, or staged for commit.
+
+# 3. Add all changes in the current directory (and subdirectories) to staging
+git add .
+# This stages all modified and new files. You can also add specific files like: git add filename.txt
+
+# 4. Commit the staged changes with a message
+git commit -m "Initial commit"
+# Commits are snapshots of your project. The -m flag lets you add a message describing the changes.
+
+# 5. View all local branches in your repository
+git branch
+# Displays the current branch and any others you’ve created locally.
+
+# 6. Create a new branch named 'feature-branch'
+git branch feature-branch
+# Helps to work on a new feature or fix without affecting the main branch.
+
+# 7. Switch to the new branch
+git checkout feature-branch
+# Moves your working directory to that branch. You can now work independently on it.
+
+# 8. Connect your local Git repo to a remote GitHub repository
+git remote add origin https://github.com/username/repo-name.git
+# Replace the URL with your own GitHub repo. This connects your local code with GitHub.
+
+# 9. Set the default branch name to 'main' (if not already set)
+git branch -M main
+# Ensures you're using 'main' as the default branch name (GitHub default).
+
+# 10. Push your code to GitHub for the first time
+git push -u origin main
+# -u sets upstream tracking, so future pushes can be done with just: git push
+
+# 11. Pull the latest changes from the remote 'main' branch
+git pull origin main
+# Fetches and integrates changes from GitHub’s main branch to your local branch.
+
+# 12. Regular push of changes to the remote repo
+git push
+# After the initial setup, just use this to push your commits to GitHub.
+
+# 13. Clone a remote repository to your local system
+git clone <repo-url>
+# Downloads the project files and full commit history. Example:
+# git clone https://github.com/user/project.git
+
+# 14. Merge changes from 'feature-branch' into your current branch (usually main)
+git merge feature-branch
+# Combines the work done on another branch into your current branch.
+# Resolve conflicts if any are shown.
+
+# ✅ Recommended Workflow:
+# git init
+# git add .
+# git commit -m "Your message"
+# git remote add origin <repo-url>
+# git push -u origin main
+# Then use git push / git pull regularly to sync with GitHub
