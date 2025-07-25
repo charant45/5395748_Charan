@@ -4,4 +4,4 @@
 ![SDLC](SDLC/Screenshot.png)
 
 ## GIT Certificate
-![GIT](GIT/git.pdf)
+![GIT](GIT/git_certificate.jpg)
