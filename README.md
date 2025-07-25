@@ -1,10 +1,10 @@
 # 5395748_Charan
 
 ## SDLC Completion Screenshot
-![SDLC](SDLC/Screenshot.png)
+➡️ [Click here to view the SDLC Completion Screenshot](SDLC/Screenshot.png)
 
 ## GIT Certificate
-![GIT](GIT/git_certificate.jpg)
+➡️ [Click here to view the GIT Certificate](GIT/git_certificate.jpg)
 
 ## 📘 Git Commands Practice
 I've documented all the Git commands I used while learning.  
