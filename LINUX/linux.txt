@@ -1,0 +1,28 @@
+# FILE & DIRECTORY MANAGEMENT
+
+ls                      # List files and directories
+pwd                     # Show current working directory
+mkdir test\_folder       # Create a new directory
+cd test\_folder          # Move into the created directory
+touch file1.txt         # Create an empty file
+ls                      # Confirm file creation
+cd ..                   # Go back to previous directory
+rmdir test\_folder       # Remove an empty directory
+
+# COPY, MOVE, AND DELETE FILES
+
+mkdir sample\_dir                        # Create a new directory
+cd sample\_dir
+touch fileA.txt fileB.txt               # Create two files
+cp fileA.txt copy\_fileA.txt             # Copy file
+mv fileB.txt moved\_fileB.txt            # Rename file
+rm copy\_fileA.txt                       # Delete file
+cd ..
+rm -r sample\_dir                        # Delete directory with files
+
+# SYSTEM & OS INFORMATION
+
+uname                                   # Show OS info
+uname -a                                # Show detailed OS info
+whoami                                  # Show current username
+df -h                                   # Show file system disk space usage
